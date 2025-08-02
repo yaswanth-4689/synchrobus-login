@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page in SynchroBus</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="icon" type="image/x-icon" href="logo1.jpeg">
+</head>
+<body>
+  <form class="action-page">
+  <div class="container">
+    <h1>Login</h1>
+    <p>Please fill in this form to log into your account.</p>
+    <hr>
+    <label for="phone"><b>Phone Number</b></label>
+    <input type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="Enter Phone Number" name="phone" required><br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+    <p><a href="./forget.html">Forgot Password?</a></p>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    <p>By logging in, you agree to our 
+      <a href="#" style="color:dodgerblue">Terms & Privacy</a>.
+    </p>
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Login</button>
+    </div>
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+</body>
+</html>
